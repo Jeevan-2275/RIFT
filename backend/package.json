@@ -1,7 +1,7 @@
 {
-  "name": "agentshield-backend",
+  "name": "ai-passport-backend",
   "version": "1.0.0",
-  "description": "Backend simulation and security rules server for AgentShield",
+  "description": "Secure digital identity and trust platform backend for AI agents",
   "main": "server.js",
   "type": "module",
   "scripts": {
@@ -14,10 +14,15 @@
     "cors": "^2.8.5",
     "dotenv": "^17.4.2",
     "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "express-validator": "^7.0.1",
     "helmet": "^8.2.0",
     "jsonwebtoken": "^9.0.3",
     "mongoose": "^9.7.4",
-    "socket.io": "^4.8.3"
+    "morgan": "^1.10.0",
+    "qrcode": "^1.5.3",
+    "socket.io": "^4.8.3",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "nodemon": "^3.1.0"
